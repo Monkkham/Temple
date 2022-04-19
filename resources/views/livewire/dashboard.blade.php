@@ -4,7 +4,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">ຫນ້າຫລັກ</h1>
+            <h1 class="m-0"><i class="fa fa-home"></i>ຫນ້າຫລັກ</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -28,9 +28,9 @@
             <div class="small-box bg-success">
               <div class="inner">
 
-                <h3>50<sup style="font-size: 20px"></sup></h3>
-
-                <p style="font-size: 20px">ລາຍຮັບທັງຫມົດ</p>
+                <h4>{{$count2}} ລາຍການ</h4>
+                <p style="font-size: 17px">ເປັນເງິນ: {{number_format($tatol_hub)}} ກີບ</p>
+                <p style="font-size: 18px">ລາຍຮັບທັງຫມົດ</p>
               </div>
               <div class="icon">
                 <i class="ion ion-stats-bars"></i>
@@ -44,10 +44,10 @@
             <!-- small box -->
             <div class="small-box bg-danger">
               <div class="inner">
-                <h3>65</h3>
-
-                <p style="font-size: 20px">ລາຍຈ່າຍທັງຫມົດ</p>
-              </div>
+                <h4>{{$count}} ລາຍການ</h4>
+                <p style="font-size: 17px">ເປັນເງິນ: {{number_format($tatol_jaiy)}} ກີບ</p>
+                <p style="font-size: 18px">ລາຍຈ່າຍທັງຫມົດ</p>
+            </div>
               <div class="icon">
                 <i class="ion ion-bag"></i>
               </div>
@@ -60,8 +60,8 @@
             <div class="small-box bg-info">
               <div class="inner">
                 <h4>150,000,000 ກີບ</h4>
-
                 <p style="font-size: 20px">ເງິນໃນບັນຊີວັດ</p>
+                <p style="font-size: 17px">ທັງຫມົດ</p>
               </div>
               <div class="icon">
                 <i class="ion ion-pie-graph"></i>
@@ -74,7 +74,7 @@
             <!-- small box -->
             <div class="small-box bg-warning">
               <div class="inner">
-                <h3>2</h3>
+                <h3>{{$count3}} ອົງ</h3>
 
                 <p style="font-size: 20px">ຜູ້ໃຊ້ລະບົບ</p>
               </div>

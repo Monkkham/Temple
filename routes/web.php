@@ -7,6 +7,7 @@ use App\Http\Livewire\Laryjaiy;
 use App\Http\Livewire\Dashboard;
 use UniSharp\LaravelFilemanager\Lfm;
 use Illuminate\Support\Facades\Route;
+use App\Http\Livewire\GeneralComponent;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,5 +29,6 @@ Route::group(['middleware' => ['auth']], function()
     Route::get('/dashboard', App\Http\Livewire\Dashboard::class)->name('dashboard');
     Route::get('/laryjaiy', App\Http\Livewire\Laryjaiy::class)->name('laryjaiy');
     Route::get('/laryhub', App\Http\Livewire\Laryhub::class)->name('laryhub');
+    Route::get('/general', App\Http\Livewire\GeneralComponent::class)->name('general');
 });
 

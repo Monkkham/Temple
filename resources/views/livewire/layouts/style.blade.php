@@ -26,6 +26,12 @@
   <!-- summernote -->
   <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
   @livewireStyles
+  <style>
+      *{
+          font-weight: bold;
+          font-family: "phetsarath OT";
+      }
+  </style>
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">

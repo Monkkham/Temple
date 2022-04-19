@@ -13,6 +13,12 @@
   <link rel="stylesheet" href="../../plugins/icheck-bootstrap/icheck-bootstrap.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+  <style>
+      *{
+          font-family: "phetsarath OT";
+          font-weight: bold;
+      }
+  </style>
 </head>
 <body class="hold-transition login-page">
 <div class="login-box">
@@ -74,10 +80,15 @@
             </div>
           </div>
           <!-- /.col -->
-          <div class="col-4">
+          {{-- <div class="col-4">
             <button type="submit" class="btn btn-primary btn-block">ເຂົ້າລະບົບ</button>
-          </div>
+          </div> --}}
           <!-- /.col -->
+        </div>
+        <div class="social-auth-links text-center mb-3">
+            <div class="btn btn-block btn-primary">
+               <button style="font-weight: bold;" type="submit" class="btn btn-primary btn-block"><i class="fa fa-arrow-right"></i> ເຂົ້າລະບົບ</button>
+            </div>
         </div>
       </form>
 
